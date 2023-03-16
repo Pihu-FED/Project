@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    /* width: 100vw; */
+    background-color: aqua;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* navbar here */
+.nav{
+    background-color: rgb(63, 61, 61);
+    height: 100px;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 8%;
+}
+
+.left h1,h4{
+    color: aliceblue;
+}
+.up{
+    margin-right: -83%;
+    padding: 0 20px;
+    gap: 20px;
+}
+.home{
+    color:white;
+    /* border-right-color: wheat ; */
+}
+.envelop{
+color: wheat;
+}
+.bars{
+color: whitesmoke;
+}
+.right{
+    flex-direction: column;
+}
+.list{
+    gap: 20px;
+    color: aliceblue;
+    padding: 15px 0;
+}
+.one:hover{
+color: wheat;
+background-color: black;
+padding: 10px;
+}
+/* container starts here */
+.container{
+    width: 70%;
+    margin: auto;
+    
+    
+}
+/* top banner */
+.comfort  {
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+    background-image: url(images/254361.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-direction: column;
+    justify-content:flex-start ;
+    
+
+}
+.comfort h1{
+    
+    margin-right:55%;
+    margin-top: 10%;
+    position: relative;
+}
+.comfort span{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+
+
+}
+.comfort p{
+    margin-right:35%;
+    margin-top: 10%;
+    width: 450px;
+}
+/* button */
+.online{
+    background-color: #333;
+    width: 350px;
+    justify-content: space-around;
+    color: aliceblue;
+    padding: 5px;
+    z-index: 5;
+    position: absolute;
+    bottom: 23%;
+    left: 18%;
+}
+
+.online a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* * lower banner */ 
+.planner{
+    background-color: rgb(226, 216, 216);
+}
+.flight{
+    width: 70%;
+    margin: auto;
+}
+/* left-banner */
+.flight h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row{
+    margin: 15px 0;
+}
+.row input{
+    padding: 3px 0;
+    border: inset;
+}
+.row .passengers input{
+    width: 110px;
+}
+.row .pass-btn button{
+    background: linear-gradient(blue,white);
+    border-color: gainsboro;
+    width: 60px;
+    padding: 5px;
+    margin: 0 0 15px 10px;
+    cursor: pointer;
+}
+.flight .heading{
+    margin: 15px 0;
+}
+/* form-banner */
+.form-inline{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.form-inline-up{
+    align-self: flex-start;
+
+}
+.form-inline-down{
+    align-self: flex-start;
+}
+.row-one input{
+    width: 190px;
+}
+.row .pass-btn{
+    margin-bottom: -15%;
+}
+/* right banner */
+.welcome h2{
+    margin-top: 6%;
+    margin-bottom: 15px;
+}
+.welcome p{
+    margin-bottom: 15px;
+    color: rgb(124, 124, 238);
+}
+.welcome ul .items{
+margin: 15px 0;
+/* list-style: none; */
+}
+.welcome ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.welcome ol .sub-items{
+    margin: 15px 0;
+    list-style: none;
+}
+
+button.btn {
+    margin-left: 83%;
+    background: linear-gradient(black,white);
+    border-color: gainsboro;
+    color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    gap: 15px;   
+ justify-content: flex-end;
+ 
+
+   
+}
+.button button{
+    background: linear-gradient(black,white);
+    border-color: gainsboro;
+    color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+}
+.clients h3{
+    margin-bottom: 15px;
+}
+
+.quotes{
+    background: linear-gradient(rgb(214, 193, 193),rgb(96, 96, 182));
+    padding: 5px 20px;
+    height: 150px;
+    width: 500PX;
+    margin:10px 0 0 0;
+    position: relative;
+    z-index: 5;
+
+}
+.quotes span{
+    background-color: transparent;
+    color: aliceblue;
+    z-index: 3;
+}
+.quote-img{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: -1;
+}
+.quotes h4{
+    margin-left: 65px;
+}
+.clients .content{
+    color: #333;
+}
+/* footer */
+.footer{
+background-color: rgb(63, 61, 61);
+    height: 100px;
+    justify-content: space-around;
+    color: aliceblue;
+    padding: 0 8%;
+}
+.welcome{
+    width: 85%;
+    margin: auto;
+}
+.lower-welcome{
+    gap: 80px;
+}
